@@ -24,7 +24,7 @@
             },
             {
                 "desc": "Total AC Current",
-                "label": "Amps",
+                "label": "AC Current",
                 "mandatory": "M",
                 "name": "A",
                 "size": 2,
@@ -33,7 +33,7 @@
             },
             {
                 "desc": "Phase A Current",
-                "label": "Amps PhaseA",
+                "label": "AC Current Phase A",
                 "mandatory": "M",
                 "name": "AphA",
                 "size": 2,
@@ -42,7 +42,7 @@
             },
             {
                 "desc": "Phase B Current",
-                "label": "Amps PhaseB",
+                "label": "AC Current Phase B",
                 "mandatory": "M",
                 "name": "AphB",
                 "size": 2,
@@ -51,7 +51,7 @@
             },
             {
                 "desc": "Phase C Current",
-                "label": "Amps PhaseC",
+                "label": "AC Current Phase C",
                 "mandatory": "M",
                 "name": "AphC",
                 "size": 2,
@@ -60,7 +60,7 @@
             },
             {
                 "desc": "Line to Neutral AC Voltage (average of active phases)",
-                "label": "Voltage LN",
+                "label": "AC Voltage",
                 "name": "PhV",
                 "size": 2,
                 "type": "float32",
@@ -68,7 +68,7 @@
             },
             {
                 "desc": "Phase Voltage AN",
-                "label": "Phase Voltage AN",
+                "label": "AC Voltage Phase AN",
                 "name": "PhVphA",
                 "size": 2,
                 "type": "float32",
@@ -76,7 +76,7 @@
             },
             {
                 "desc": "Phase Voltage BN",
-                "label": "Phase Voltage BN",
+                "label": "AC Voltage Phase BN",
                 "name": "PhVphB",
                 "size": 2,
                 "type": "float32",
@@ -84,7 +84,7 @@
             },
             {
                 "desc": "Phase Voltage CN",
-                "label": "Phase Voltage CN",
+                "label": "AC Voltage Phase CN",
                 "name": "PhVphC",
                 "size": 2,
                 "type": "float32",
@@ -92,7 +92,7 @@
             },
             {
                 "desc": "Line to Line AC Voltage (average of active phases)",
-                "label": "Voltage LL",
+                "label": "AC Voltage LL",
                 "mandatory": "M",
                 "name": "PPV",
                 "size": 2,
@@ -101,7 +101,7 @@
             },
             {
                 "desc": "Phase Voltage AB",
-                "label": "Phase Voltage AB",
+                "label": "AC Voltage Phase AB",
                 "mandatory": "M",
                 "name": "PPVphAB",
                 "size": 2,
@@ -110,7 +110,7 @@
             },
             {
                 "desc": "Phase Voltage BC",
-                "label": "Phase Voltage BC",
+                "label": "AC Voltage Phase BC",
                 "mandatory": "M",
                 "name": "PPVphBC",
                 "size": 2,
@@ -119,7 +119,7 @@
             },
             {
                 "desc": "Phase Voltage CA",
-                "label": "Phase Voltage CA",
+                "label": "AC Voltage Phase CA",
                 "mandatory": "M",
                 "name": "PPVphCA",
                 "size": 2,
@@ -128,7 +128,7 @@
             },
             {
                 "desc": "Frequency",
-                "label": "Hz",
+                "label": "AC Line Frequency",
                 "mandatory": "M",
                 "name": "Hz",
                 "size": 2,
@@ -137,7 +137,7 @@
             },
             {
                 "desc": "Total Real Power",
-                "label": "Watts",
+                "label": "AC Power",
                 "mandatory": "M",
                 "name": "W",
                 "size": 2,
@@ -145,21 +145,21 @@
                 "units": "W"
             },
             {
-                "label": "Watts phase A",
+                "label": "AC Power Phase A",
                 "name": "WphA",
                 "size": 2,
                 "type": "float32",
                 "units": "W"
             },
             {
-                "label": "Watts phase B",
+                "label": "AC Power Phase B",
                 "name": "WphB",
                 "size": 2,
                 "type": "float32",
                 "units": "W"
             },
             {
-                "label": "Watts phase C",
+                "label": "AC Power Phase C",
                 "name": "WphC",
                 "size": 2,
                 "type": "float32",
@@ -167,28 +167,28 @@
             },
             {
                 "desc": "AC Apparent Power",
-                "label": "VA",
+                "label": "AC Apparent Power",
                 "name": "VA",
                 "size": 2,
                 "type": "float32",
                 "units": "VA"
             },
             {
-                "label": "VA phase A",
+                "label": "AC Apparent Power Phase A",
                 "name": "VAphA",
                 "size": 2,
                 "type": "float32",
                 "units": "VA"
             },
             {
-                "label": "VA phase B",
+                "label": "AC Apparent Power Phase B",
                 "name": "VAphB",
                 "size": 2,
                 "type": "float32",
                 "units": "VA"
             },
             {
-                "label": "VA phase C",
+                "label": "AC Apparent Power Phase C",
                 "name": "VAphC",
                 "size": 2,
                 "type": "float32",
@@ -196,28 +196,28 @@
             },
             {
                 "desc": "Reactive Power",
-                "label": "VAR",
+                "label": "AC Reactive Power",
                 "name": "VAR",
                 "size": 2,
                 "type": "float32",
                 "units": "var"
             },
             {
-                "label": "VAR phase A",
+                "label": "AC Reactive Power Phase A",
                 "name": "VARphA",
                 "size": 2,
                 "type": "float32",
                 "units": "var"
             },
             {
-                "label": "VAR phase B",
+                "label": "AC Reactive Power Phase B",
                 "name": "VARphB",
                 "size": 2,
                 "type": "float32",
                 "units": "var"
             },
             {
-                "label": "VAR phase C",
+                "label": "AC Reactive Power Phase C",
                 "name": "VARphC",
                 "size": 2,
                 "type": "float32",
@@ -225,28 +225,28 @@
             },
             {
                 "desc": "Power Factor",
-                "label": "PF",
+                "label": "AC Power Factor",
                 "name": "PF",
                 "size": 2,
                 "type": "float32",
                 "units": "PF"
             },
             {
-                "label": "PF phase A",
+                "label": "AC Power Factor Phase A",
                 "name": "PFphA",
                 "size": 2,
                 "type": "float32",
                 "units": "PF"
             },
             {
-                "label": "PF phase B",
+                "label": "AC Power Factor Phase B",
                 "name": "PFphB",
                 "size": 2,
                 "type": "float32",
                 "units": "PF"
             },
             {
-                "label": "PF phase C",
+                "label": "AC Power Factor Phase C",
                 "name": "PFphC",
                 "size": 2,
                 "type": "float32",
@@ -254,7 +254,7 @@
             },
             {
                 "desc": "Total Real Energy Exported",
-                "label": "Total Watt-hours Exported",
+                "label": "Total Real Energy Exported",
                 "mandatory": "M",
                 "name": "TotWhExp",
                 "size": 2,
@@ -262,21 +262,21 @@
                 "units": "Wh"
             },
             {
-                "label": "Total Watt-hours Exported phase A",
+                "label": "Total Real Energy Exported Phase A",
                 "name": "TotWhExpPhA",
                 "size": 2,
                 "type": "float32",
                 "units": "Wh"
             },
             {
-                "label": "Total Watt-hours Exported phase B",
+                "label": "Total Real Energy Exported Phase B",
                 "name": "TotWhExpPhB",
                 "size": 2,
                 "type": "float32",
                 "units": "Wh"
             },
             {
-                "label": "Total Watt-hours Exported phase C",
+                "label": "Total Real Energy Exported Phase C",
                 "name": "TotWhExpPhC",
                 "size": 2,
                 "type": "float32",
@@ -284,7 +284,7 @@
             },
             {
                 "desc": "Total Real Energy Imported",
-                "label": "Total Watt-hours Imported",
+                "label": "Total Real Energy Imported",
                 "mandatory": "M",
                 "name": "TotWhImp",
                 "size": 2,
@@ -292,21 +292,21 @@
                 "units": "Wh"
             },
             {
-                "label": "Total Watt-hours Imported phase A",
+                "label": "Total Real Energy Imported Phase A",
                 "name": "TotWhImpPhA",
                 "size": 2,
                 "type": "float32",
                 "units": "Wh"
             },
             {
-                "label": "Total Watt-hours Imported phase B",
+                "label": "Total Real Energy Imported Phase B",
                 "name": "TotWhImpPhB",
                 "size": 2,
                 "type": "float32",
                 "units": "Wh"
             },
             {
-                "label": "Total Watt-hours Imported phase C",
+                "label": "Total Real Energy Imported Phase C",
                 "name": "TotWhImpPhC",
                 "size": 2,
                 "type": "float32",
@@ -314,28 +314,28 @@
             },
             {
                 "desc": "Total Apparent Energy Exported",
-                "label": "Total VA-hours Exported",
+                "label": "Total Apparent Energy Exported",
                 "name": "TotVAhExp",
                 "size": 2,
                 "type": "float32",
                 "units": "VAh"
             },
             {
-                "label": "Total VA-hours Exported phase A",
+                "label": "Total Apparent Energy Exported Phase A",
                 "name": "TotVAhExpPhA",
                 "size": 2,
                 "type": "float32",
                 "units": "VAh"
             },
             {
-                "label": "Total VA-hours Exported phase B",
+                "label": "Total Apparent Energy Exported Phase B",
                 "name": "TotVAhExpPhB",
                 "size": 2,
                 "type": "float32",
                 "units": "VAh"
             },
             {
-                "label": "Total VA-hours Exported phase C",
+                "label": "Total Apparent Energy Exported Phase C",
                 "name": "TotVAhExpPhC",
                 "size": 2,
                 "type": "float32",
@@ -343,28 +343,28 @@
             },
             {
                 "desc": "Total Apparent Energy Imported",
-                "label": "Total VA-hours Imported",
+                "label": "Total Apparent Energy Imported",
                 "name": "TotVAhImp",
                 "size": 2,
                 "type": "float32",
                 "units": "VAh"
             },
             {
-                "label": "Total VA-hours Imported phase A",
+                "label": "Total Apparent Energy Imported Phase A",
                 "name": "TotVAhImpPhA",
                 "size": 2,
                 "type": "float32",
                 "units": "VAh"
             },
             {
-                "label": "Total VA-hours Imported phase B",
+                "label": "Total Apparent Energy Imported Phase B",
                 "name": "TotVAhImpPhB",
                 "size": 2,
                 "type": "float32",
                 "units": "VAh"
             },
             {
-                "label": "Total VA-hours Imported phase C",
+                "label": "Total Apparent Energy Imported Phase C",
                 "name": "TotVAhImpPhC",
                 "size": 2,
                 "type": "float32",
@@ -372,7 +372,7 @@
             },
             {
                 "desc": "Total Reactive Energy Imported Quadrant 1",
-                "label": "Total VAR-hours Imported Q1",
+                "label": "Total Reactive Energy Imported Q1",
                 "name": "TotVArhImpQ1",
                 "size": 2,
                 "type": "float32",
@@ -401,7 +401,7 @@
             },
             {
                 "desc": "Total Reactive Power Imported Quadrant 2",
-                "label": "Total VAr-hours Imported Q2",
+                "label": "Total Reactive Energy Imported Q2",
                 "name": "TotVArhImpQ2",
                 "size": 2,
                 "type": "float32",
@@ -430,7 +430,7 @@
             },
             {
                 "desc": "Total Reactive Power Exported Quadrant 3",
-                "label": "Total VAr-hours Exported Q3",
+                "label": "Total Reactive Energy Exported Q3",
                 "name": "TotVArhExpQ3",
                 "size": 2,
                 "type": "float32",
@@ -459,7 +459,7 @@
             },
             {
                 "desc": "Total Reactive Power Exported Quadrant 4",
-                "label": "Total VAr-hours Exported Q4",
+                "label": "Total Reactive Energy Exported Q4",
                 "name": "TotVArhExpQ4",
                 "size": 2,
                 "type": "float32",

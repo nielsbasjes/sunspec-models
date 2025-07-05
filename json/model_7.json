@@ -9,7 +9,7 @@
                     {
                         "access": "RW",
                         "desc": "Digital Signature",
-                        "label": "DS",
+                        "label": "Digital Signature",
                         "mandatory": "M",
                         "name": "DS",
                         "size": 1,
@@ -128,6 +128,7 @@
                 "type": "enum16"
             },
             {
+                "label": "Reserved",
                 "mandatory": "M",
                 "name": "Rsrvd",
                 "size": 1,
@@ -160,7 +161,7 @@
             {
                 "access": "RW",
                 "desc": "Number of registers comprising the digital signature.",
-                "label": "N",
+                "label": "Number of digital signature registers",
                 "mandatory": "M",
                 "name": "N",
                 "size": 1,

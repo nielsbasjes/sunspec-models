@@ -275,7 +275,7 @@
             },
             {
                 "desc": "Module Temperature",
-                "label": "Temp",
+                "label": "Module Temperature",
                 "name": "Tmp",
                 "size": 1,
                 "type": "int16",

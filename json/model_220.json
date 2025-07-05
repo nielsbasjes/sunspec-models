@@ -7,6 +7,7 @@
                 "name": "repeating",
                 "points": [
                     {
+                        "label": "Digital Signature",
                         "mandatory": "M",
                         "name": "DS",
                         "size": 1,
@@ -40,7 +41,7 @@
             },
             {
                 "desc": "Total AC Current",
-                "label": "Amps",
+                "label": "AC Current",
                 "mandatory": "M",
                 "name": "A",
                 "sf": "A_SF",
@@ -57,7 +58,7 @@
             },
             {
                 "desc": "Average phase or line voltage",
-                "label": "Voltage",
+                "label": "AC Voltage",
                 "name": "PhV",
                 "sf": "V_SF",
                 "size": 1,
@@ -73,7 +74,7 @@
             },
             {
                 "desc": "Frequency",
-                "label": "Hz",
+                "label": "AC Line Frequency",
                 "mandatory": "M",
                 "name": "Hz",
                 "sf": "Hz_SF",
@@ -89,7 +90,7 @@
             },
             {
                 "desc": "Total Real Power",
-                "label": "Watts",
+                "label": "AC Power",
                 "mandatory": "M",
                 "name": "W",
                 "sf": "W_SF",
@@ -106,7 +107,7 @@
             },
             {
                 "desc": "AC Apparent Power",
-                "label": "VA",
+                "label": "AC Apparent Power",
                 "name": "VA",
                 "sf": "VA_SF",
                 "size": 1,
@@ -121,7 +122,7 @@
             },
             {
                 "desc": "Reactive Power",
-                "label": "VAR",
+                "label": "AC Reactive Power",
                 "name": "VAR",
                 "sf": "VAR_SF",
                 "size": 1,
@@ -136,7 +137,7 @@
             },
             {
                 "desc": "Power Factor",
-                "label": "PF",
+                "label": "AC Power Factor",
                 "name": "PF",
                 "sf": "PF_SF",
                 "size": 1,
@@ -151,7 +152,7 @@
             },
             {
                 "desc": "Total Real Energy Exported",
-                "label": "Total Watt-hours Exported",
+                "label": "Total Real Energy Exported",
                 "mandatory": "M",
                 "name": "TotWhExp",
                 "sf": "TotWh_SF",
@@ -161,7 +162,7 @@
             },
             {
                 "desc": "Total Real Energy Imported",
-                "label": "Total Watt-hours Imported",
+                "label": "Total Real Energy Imported",
                 "mandatory": "M",
                 "name": "TotWhImp",
                 "sf": "TotWh_SF",
@@ -178,7 +179,7 @@
             },
             {
                 "desc": "Total Apparent Energy Exported",
-                "label": "Total VA-hours Exported",
+                "label": "Total Apparent Energy Exported",
                 "name": "TotVAhExp",
                 "sf": "TotVAh_SF",
                 "size": 2,
@@ -187,7 +188,7 @@
             },
             {
                 "desc": "Total Apparent Energy Imported",
-                "label": "Total VA-hours Imported",
+                "label": "Total Apparent Energy Imported",
                 "name": "TotVAhImp",
                 "sf": "TotVAh_SF",
                 "size": 2,
@@ -202,7 +203,7 @@
             },
             {
                 "desc": "Total Reactive Energy Imported Quadrant 1",
-                "label": "Total VAR-hours Imported Q1",
+                "label": "Total Reactive Energy Imported Q1",
                 "name": "TotVArhImpQ1",
                 "sf": "TotVArh_SF",
                 "size": 2,
@@ -211,7 +212,7 @@
             },
             {
                 "desc": "Total Reactive Power Imported Quadrant 2",
-                "label": "Total VAr-hours Imported Q2",
+                "label": "Total Reactive Energy Imported Q2",
                 "name": "TotVArhImpQ2",
                 "sf": "TotVArh_SF",
                 "size": 2,
@@ -220,7 +221,7 @@
             },
             {
                 "desc": "Total Reactive Power Exported Quadrant 3",
-                "label": "Total VAr-hours Exported Q3",
+                "label": "Total Reactive Energy Exported Q3",
                 "name": "TotVArhExpQ3",
                 "sf": "TotVArh_SF",
                 "size": 2,
@@ -229,7 +230,7 @@
             },
             {
                 "desc": "Total Reactive Power Exported Quadrant 4",
-                "label": "Total VAr-hours Exported Q4",
+                "label": "Total Reactive Energy Exported Q4",
                 "name": "TotVArhExpQ4",
                 "sf": "TotVArh_SF",
                 "size": 2,
@@ -337,6 +338,7 @@
                 "type": "bitfield32"
             },
             {
+                "label": "Reserved",
                 "mandatory": "M",
                 "name": "Rsrvd",
                 "size": 1,
@@ -393,7 +395,7 @@
             },
             {
                 "desc": "Number of registers comprising the digital signature.",
-                "label": "N",
+                "label": "Number of digital signature registers",
                 "mandatory": "M",
                 "name": "N",
                 "size": 1,

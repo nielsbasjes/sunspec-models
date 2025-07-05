@@ -485,7 +485,7 @@
                     "L1"
                 ],
                 "desc": "Active power L1.",
-                "label": "Watts L1",
+                "label": "Active power L1",
                 "name": "WL1",
                 "sf": "W_SF",
                 "size": 1,
@@ -495,7 +495,7 @@
             },
             {
                 "desc": "Apparent power L1.",
-                "label": "VA L1",
+                "label": "Apparent power L1",
                 "name": "VAL1",
                 "sf": "VA_SF",
                 "size": 1,
@@ -505,7 +505,7 @@
             },
             {
                 "desc": "Reactive power L1.",
-                "label": "Var L1",
+                "label": "Reactive power L1",
                 "name": "VarL1",
                 "sf": "Var_SF",
                 "size": 1,
@@ -515,7 +515,7 @@
             },
             {
                 "desc": "Power factor phase L1.",
-                "label": "PF L1",
+                "label": "Power factor L1",
                 "name": "PFL1",
                 "sf": "PF_SF",
                 "size": 1,
@@ -524,7 +524,7 @@
             },
             {
                 "desc": "Current phase L1.",
-                "label": "Amps L1",
+                "label": "Current L1",
                 "name": "AL1",
                 "sf": "A_SF",
                 "size": 1,
@@ -534,7 +534,7 @@
             },
             {
                 "desc": "Phase voltage L1-L2.",
-                "label": "Phase Voltage L1-L2",
+                "label": "Phase voltage L1-L2",
                 "name": "VL1L2",
                 "sf": "V_SF",
                 "size": 1,
@@ -546,7 +546,7 @@
             },
             {
                 "desc": "Phase voltage L1-N.",
-                "label": "Phase Voltage L1-N",
+                "label": "Phase voltage L1-N",
                 "name": "VL1",
                 "sf": "V_SF",
                 "size": 1,
@@ -558,7 +558,7 @@
             },
             {
                 "desc": "Total active energy injected L1.",
-                "label": "Total Watt-Hours Inj L1",
+                "label": "Total active energy injected L1",
                 "name": "TotWhInjL1",
                 "sf": "TotWh_SF",
                 "size": 4,
@@ -568,7 +568,7 @@
             },
             {
                 "desc": "Total active energy absorbed L1.",
-                "label": "Total Watt-Hours Abs L1",
+                "label": "Total active energy absorbed L1",
                 "name": "TotWhAbsL1",
                 "sf": "TotWh_SF",
                 "size": 4,
@@ -578,7 +578,7 @@
             },
             {
                 "desc": "Total reactive energy injected L1.",
-                "label": "Total Var-Hours Inj L1",
+                "label": "Total reactive energy injected L1",
                 "name": "TotVarhInjL1",
                 "sf": "TotVarh_SF",
                 "size": 4,
@@ -588,7 +588,7 @@
             },
             {
                 "desc": "Total reactive energy absorbed L1.",
-                "label": "Total Var-Hours Abs L1",
+                "label": "Total reactive energy absorbed L1",
                 "name": "TotVarhAbsL1",
                 "sf": "TotVarh_SF",
                 "size": 4,
@@ -601,7 +601,7 @@
                     "L2"
                 ],
                 "desc": "Active power L2.",
-                "label": "Watts L2",
+                "label": "Active power L2",
                 "name": "WL2",
                 "sf": "W_SF",
                 "size": 1,
@@ -611,7 +611,7 @@
             },
             {
                 "desc": "Apparent power L2.",
-                "label": "VA L2",
+                "label": "Apparent power L2",
                 "name": "VAL2",
                 "sf": "VA_SF",
                 "size": 1,
@@ -621,7 +621,7 @@
             },
             {
                 "desc": "Reactive power L2.",
-                "label": "Var L2",
+                "label": "Reactive power L2",
                 "name": "VarL2",
                 "sf": "Var_SF",
                 "size": 1,
@@ -631,7 +631,7 @@
             },
             {
                 "desc": "Power factor L2.",
-                "label": "PF L2",
+                "label": "Power factor L2",
                 "name": "PFL2",
                 "sf": "PF_SF",
                 "size": 1,
@@ -640,7 +640,7 @@
             },
             {
                 "desc": "Current L2.",
-                "label": "Amps L2",
+                "label": "Current L2",
                 "name": "AL2",
                 "sf": "A_SF",
                 "size": 1,
@@ -650,7 +650,7 @@
             },
             {
                 "desc": "Phase voltage L2-L3.",
-                "label": "Phase Voltage L2-L3",
+                "label": "Phase voltage L2-L3",
                 "name": "VL2L3",
                 "sf": "V_SF",
                 "size": 1,
@@ -662,7 +662,7 @@
             },
             {
                 "desc": "Phase voltage L2-N.",
-                "label": "Phase Voltage L2-N",
+                "label": "Phase voltage L2-N",
                 "name": "VL2",
                 "sf": "V_SF",
                 "size": 1,
@@ -674,7 +674,7 @@
             },
             {
                 "desc": "Total active energy injected L2.",
-                "label": "Total Watt-Hours Inj L2",
+                "label": "Total active energy injected L2",
                 "name": "TotWhInjL2",
                 "sf": "TotWh_SF",
                 "size": 4,
@@ -684,7 +684,7 @@
             },
             {
                 "desc": "Total active energy absorbed L2.",
-                "label": "Total Watt-Hours Abs L2",
+                "label": "Total active energy absorbed L2",
                 "name": "TotWhAbsL2",
                 "sf": "TotWh_SF",
                 "size": 4,
@@ -694,7 +694,7 @@
             },
             {
                 "desc": "Total reactive energy injected L2.",
-                "label": "Total Var-Hours Inj L2",
+                "label": "Total reactive energy injected L2",
                 "name": "TotVarhInjL2",
                 "sf": "TotVarh_SF",
                 "size": 4,
@@ -704,7 +704,7 @@
             },
             {
                 "desc": "Total reactive energy absorbed L2.",
-                "label": "Total Var-Hours Abs L2",
+                "label": "Total reactive energy absorbed L2",
                 "name": "TotVarhAbsL2",
                 "sf": "TotVarh_SF",
                 "size": 4,
@@ -717,7 +717,7 @@
                     "L3"
                 ],
                 "desc": "Active power L3.",
-                "label": "Watts L3",
+                "label": "Active power L3",
                 "name": "WL3",
                 "sf": "W_SF",
                 "size": 1,
@@ -727,7 +727,7 @@
             },
             {
                 "desc": "Apparent power L3.",
-                "label": "VA L3",
+                "label": "Apparent power L3",
                 "name": "VAL3",
                 "sf": "VA_SF",
                 "size": 1,
@@ -737,7 +737,7 @@
             },
             {
                 "desc": "Reactive power L3.",
-                "label": "Var L3",
+                "label": "Reactive power L3",
                 "name": "VarL3",
                 "sf": "Var_SF",
                 "size": 1,
@@ -747,7 +747,7 @@
             },
             {
                 "desc": "Power factor L3.",
-                "label": "PF L3",
+                "label": "Power factor L3",
                 "name": "PFL3",
                 "sf": "PF_SF",
                 "size": 1,
@@ -756,7 +756,7 @@
             },
             {
                 "desc": "Current L3.",
-                "label": "Amps L3",
+                "label": "Current L3",
                 "name": "AL3",
                 "sf": "A_SF",
                 "size": 1,
@@ -766,7 +766,7 @@
             },
             {
                 "desc": "Phase voltage L3-L1.",
-                "label": "Phase Voltage L3-L1",
+                "label": "Phase voltage L3-L1",
                 "name": "VL3L1",
                 "sf": "V_SF",
                 "size": 1,
@@ -778,7 +778,7 @@
             },
             {
                 "desc": "Phase voltage L3-N.",
-                "label": "Phase Voltage L3-N",
+                "label": "Phase voltage L3-N",
                 "name": "VL3",
                 "sf": "V_SF",
                 "size": 1,
@@ -790,7 +790,7 @@
             },
             {
                 "desc": "Total active energy injected L3.",
-                "label": "Total Watt-Hours Inj L3",
+                "label": "Total active energy injected L3",
                 "name": "TotWhInjL3",
                 "sf": "TotWh_SF",
                 "size": 4,
@@ -800,7 +800,7 @@
             },
             {
                 "desc": "Total active energy absorbed L3.",
-                "label": "Total Watt-Hours Abs L3",
+                "label": "Total active energy absorbed L3",
                 "name": "TotWhAbsL3",
                 "sf": "TotWh_SF",
                 "size": 4,
@@ -810,7 +810,7 @@
             },
             {
                 "desc": "Total reactive energy injected L3.",
-                "label": "Total Var-Hours Inj L3",
+                "label": "Total reactive energy injected L3",
                 "name": "TotVarhInjL3",
                 "sf": "TotVarh_SF",
                 "size": 4,
@@ -820,7 +820,7 @@
             },
             {
                 "desc": "Total reactive energy absorbed L3.",
-                "label": "Total Var-Hours Abs L3",
+                "label": "Total reactive energy absorbed L3",
                 "name": "TotVarhAbsL3",
                 "sf": "TotVarh_SF",
                 "size": 4,

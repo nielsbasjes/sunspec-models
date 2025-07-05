@@ -25,7 +25,7 @@
             },
             {
                 "desc": "Aggregated model id",
-                "label": "AID",
+                "label": "Aggregated model id",
                 "mandatory": "M",
                 "name": "AID",
                 "size": 1,
@@ -33,7 +33,7 @@
             },
             {
                 "desc": "Number of aggregated models",
-                "label": "N",
+                "label": "Number of aggregated models",
                 "mandatory": "M",
                 "name": "N",
                 "size": 1,
@@ -41,7 +41,7 @@
             },
             {
                 "desc": "Update Number. Incrementing number each time the mapping is changed. If the number is not changed from the last reading the direct access to a specific offset will result in reading the same logical model as before. Otherwise the entire model must be read to refresh the changes",
-                "label": "UN",
+                "label": "Update Number",
                 "mandatory": "M",
                 "name": "UN",
                 "size": 1,

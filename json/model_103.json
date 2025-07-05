@@ -25,7 +25,7 @@
             },
             {
                 "desc": "AC Current",
-                "label": "Amps",
+                "label": "AC Current",
                 "mandatory": "M",
                 "name": "A",
                 "sf": "A_SF",
@@ -36,7 +36,7 @@
             },
             {
                 "desc": "Phase A Current",
-                "label": "Amps PhaseA",
+                "label": "AC Current Phase A",
                 "mandatory": "M",
                 "name": "AphA",
                 "sf": "A_SF",
@@ -47,7 +47,7 @@
             },
             {
                 "desc": "Phase B Current",
-                "label": "Amps PhaseB",
+                "label": "AC Current Phase B",
                 "mandatory": "M",
                 "name": "AphB",
                 "sf": "A_SF",
@@ -58,7 +58,7 @@
             },
             {
                 "desc": "Phase C Current",
-                "label": "Amps PhaseC",
+                "label": "AC Current Phase C",
                 "mandatory": "M",
                 "name": "AphC",
                 "sf": "A_SF",
@@ -75,7 +75,7 @@
             },
             {
                 "desc": "Phase Voltage AB",
-                "label": "Phase Voltage AB",
+                "label": "AC Voltage Phase AB",
                 "name": "PPVphAB",
                 "sf": "V_SF",
                 "size": 1,
@@ -84,7 +84,7 @@
             },
             {
                 "desc": "Phase Voltage BC",
-                "label": "Phase Voltage BC",
+                "label": "AC Voltage Phase BC",
                 "name": "PPVphBC",
                 "sf": "V_SF",
                 "size": 1,
@@ -93,7 +93,7 @@
             },
             {
                 "desc": "Phase Voltage CA",
-                "label": "Phase Voltage CA",
+                "label": "AC Voltage Phase CA",
                 "name": "PPVphCA",
                 "sf": "V_SF",
                 "size": 1,
@@ -102,7 +102,7 @@
             },
             {
                 "desc": "Phase Voltage AN",
-                "label": "Phase Voltage AN",
+                "label": "AC Voltage Phase AN",
                 "mandatory": "M",
                 "name": "PhVphA",
                 "sf": "V_SF",
@@ -112,7 +112,7 @@
             },
             {
                 "desc": "Phase Voltage BN",
-                "label": "Phase Voltage BN",
+                "label": "AC Voltage Phase BN",
                 "mandatory": "M",
                 "name": "PhVphB",
                 "sf": "V_SF",
@@ -122,7 +122,7 @@
             },
             {
                 "desc": "Phase Voltage CN",
-                "label": "Phase Voltage CN",
+                "label": "AC Voltage Phase CN",
                 "mandatory": "M",
                 "name": "PhVphC",
                 "sf": "V_SF",
@@ -138,7 +138,7 @@
             },
             {
                 "desc": "AC Power",
-                "label": "Watts",
+                "label": "AC Power",
                 "mandatory": "M",
                 "name": "W",
                 "sf": "W_SF",
@@ -154,7 +154,7 @@
             },
             {
                 "desc": "Line Frequency",
-                "label": "Hz",
+                "label": "AC Line Frequency",
                 "mandatory": "M",
                 "name": "Hz",
                 "sf": "Hz_SF",
@@ -170,7 +170,7 @@
             },
             {
                 "desc": "AC Apparent Power",
-                "label": "VA",
+                "label": "AC Apparent Power",
                 "name": "VA",
                 "sf": "VA_SF",
                 "size": 1,
@@ -184,7 +184,7 @@
             },
             {
                 "desc": "AC Reactive Power",
-                "label": "VAr",
+                "label": "AC Reactive Power",
                 "name": "VAr",
                 "sf": "VAr_SF",
                 "size": 1,
@@ -198,7 +198,7 @@
             },
             {
                 "desc": "AC Power Factor",
-                "label": "PF",
+                "label": "AC Power Factor",
                 "name": "PF",
                 "sf": "PF_SF",
                 "size": 1,
@@ -212,7 +212,7 @@
             },
             {
                 "desc": "AC Energy",
-                "label": "WattHours",
+                "label": "AC Energy",
                 "mandatory": "M",
                 "name": "WH",
                 "sf": "WH_SF",
@@ -228,7 +228,7 @@
             },
             {
                 "desc": "DC Current",
-                "label": "DC Amps",
+                "label": "DC Current",
                 "name": "DCA",
                 "sf": "DCA_SF",
                 "size": 1,
@@ -256,7 +256,7 @@
             },
             {
                 "desc": "DC Power",
-                "label": "DC Watts",
+                "label": "DC Power",
                 "name": "DCW",
                 "sf": "DCW_SF",
                 "size": 1,
@@ -362,7 +362,7 @@
             },
             {
                 "desc": "Event fields",
-                "label": "Event1",
+                "label": "Event Bitfield 1",
                 "mandatory": "M",
                 "name": "Evt1",
                 "size": 2,

@@ -25,7 +25,7 @@
             },
             {
                 "desc": "AC Current",
-                "label": "Amps",
+                "label": "AC Current",
                 "mandatory": "M",
                 "name": "A",
                 "size": 2,
@@ -35,7 +35,7 @@
             },
             {
                 "desc": "Phase A Current",
-                "label": "Amps PhaseA",
+                "label": "AC Current Phase A",
                 "mandatory": "M",
                 "name": "AphA",
                 "size": 2,
@@ -45,7 +45,7 @@
             },
             {
                 "desc": "Phase B Current",
-                "label": "Amps PhaseB",
+                "label": "AC Current Phase B",
                 "mandatory": "M",
                 "name": "AphB",
                 "size": 2,
@@ -55,7 +55,7 @@
             },
             {
                 "desc": "Phase C Current",
-                "label": "Amps PhaseC",
+                "label": "AC Current Phase C",
                 "mandatory": "M",
                 "name": "AphC",
                 "size": 2,
@@ -65,7 +65,7 @@
             },
             {
                 "desc": "Phase Voltage AB",
-                "label": "Phase Voltage AB",
+                "label": "AC Voltage Phase AB",
                 "name": "PPVphAB",
                 "size": 2,
                 "type": "float32",
@@ -73,7 +73,7 @@
             },
             {
                 "desc": "Phase Voltage BC",
-                "label": "Phase Voltage BC",
+                "label": "AC Voltage Phase BC",
                 "name": "PPVphBC",
                 "size": 2,
                 "type": "float32",
@@ -81,7 +81,7 @@
             },
             {
                 "desc": "Phase Voltage CA",
-                "label": "Phase Voltage CA",
+                "label": "AC Voltage Phase CA",
                 "name": "PPVphCA",
                 "size": 2,
                 "type": "float32",
@@ -89,7 +89,7 @@
             },
             {
                 "desc": "Phase Voltage AN",
-                "label": "Phase Voltage AN",
+                "label": "AC Voltage Phase AN",
                 "mandatory": "M",
                 "name": "PhVphA",
                 "size": 2,
@@ -98,7 +98,7 @@
             },
             {
                 "desc": "Phase Voltage BN",
-                "label": "Phase Voltage BN",
+                "label": "AC Voltage Phase BN",
                 "mandatory": "M",
                 "name": "PhVphB",
                 "size": 2,
@@ -107,7 +107,7 @@
             },
             {
                 "desc": "Phase Voltage CN",
-                "label": "Phase Voltage CN",
+                "label": "AC Voltage Phase CN",
                 "mandatory": "M",
                 "name": "PhVphC",
                 "size": 2,
@@ -116,7 +116,7 @@
             },
             {
                 "desc": "AC Power",
-                "label": "Watts",
+                "label": "AC Power",
                 "mandatory": "M",
                 "name": "W",
                 "size": 2,
@@ -125,7 +125,7 @@
             },
             {
                 "desc": "Line Frequency",
-                "label": "Hz",
+                "label": "AC Line Frequency",
                 "mandatory": "M",
                 "name": "Hz",
                 "size": 2,
@@ -134,7 +134,7 @@
             },
             {
                 "desc": "AC Apparent Power",
-                "label": "VA",
+                "label": "AC Apparent Power",
                 "name": "VA",
                 "size": 2,
                 "type": "float32",
@@ -142,7 +142,7 @@
             },
             {
                 "desc": "AC Reactive Power",
-                "label": "VAr",
+                "label": "AC Reactive Power",
                 "name": "VAr",
                 "size": 2,
                 "type": "float32",
@@ -150,7 +150,7 @@
             },
             {
                 "desc": "AC Power Factor",
-                "label": "PF",
+                "label": "AC Power Factor",
                 "name": "PF",
                 "size": 2,
                 "type": "float32",
@@ -158,7 +158,7 @@
             },
             {
                 "desc": "AC Energy",
-                "label": "WattHours",
+                "label": "AC Energy",
                 "mandatory": "M",
                 "name": "WH",
                 "size": 2,
@@ -167,7 +167,7 @@
             },
             {
                 "desc": "DC Current",
-                "label": "DC Amps",
+                "label": "DC Current",
                 "name": "DCA",
                 "size": 2,
                 "type": "float32",
@@ -183,7 +183,7 @@
             },
             {
                 "desc": "DC Power",
-                "label": "DC Watts",
+                "label": "DC Power",
                 "name": "DCW",
                 "size": 2,
                 "type": "float32",
@@ -273,7 +273,7 @@
             },
             {
                 "desc": "Event fields",
-                "label": "Event1",
+                "label": "Event Bitfield 1",
                 "mandatory": "M",
                 "name": "Evt1",
                 "size": 2,

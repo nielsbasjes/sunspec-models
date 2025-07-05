@@ -8,7 +8,7 @@
                 "points": [
                     {
                         "desc": "X.509 Certificate of the device",
-                        "label": "Cert",
+                        "label": "Certificate",
                         "mandatory": "M",
                         "name": "Cert",
                         "size": 1,
@@ -64,7 +64,7 @@
             },
             {
                 "desc": "Number of registers to follow for the certificate",
-                "label": "N",
+                "label": "Number of certificate registers",
                 "mandatory": "M",
                 "name": "N",
                 "size": 1,

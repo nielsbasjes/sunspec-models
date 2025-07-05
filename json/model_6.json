@@ -9,7 +9,7 @@
                     {
                         "access": "RW",
                         "desc": "Digital Signature",
-                        "label": "DS",
+                        "label": "Digital Signature",
                         "mandatory": "M",
                         "name": "DS",
                         "size": 1,
@@ -44,7 +44,7 @@
             {
                 "access": "RW",
                 "desc": "Number of (offset, value) pairs being written",
-                "label": "X",
+                "label": "Number of pairs being written",
                 "mandatory": "M",
                 "name": "X",
                 "size": 1,
@@ -54,7 +54,7 @@
             {
                 "access": "RW",
                 "desc": "Starting offset for write operation",
-                "label": "Offset",
+                "label": "Starting Offset",
                 "mandatory": "M",
                 "name": "Off",
                 "size": 1,
@@ -64,7 +64,7 @@
             {
                 "access": "RW",
                 "desc": "Value to write to control register at offset",
-                "label": "Value1",
+                "label": "Value at Offset 1",
                 "mandatory": "M",
                 "name": "Val1",
                 "size": 1,
@@ -72,6 +72,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 2",
                 "mandatory": "M",
                 "name": "Val2",
                 "size": 1,
@@ -79,6 +80,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 3",
                 "mandatory": "M",
                 "name": "Val3",
                 "size": 1,
@@ -86,6 +88,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 4",
                 "mandatory": "M",
                 "name": "Val4",
                 "size": 1,
@@ -93,6 +96,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 5",
                 "mandatory": "M",
                 "name": "Val5",
                 "size": 1,
@@ -100,6 +104,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 6",
                 "mandatory": "M",
                 "name": "Val6",
                 "size": 1,
@@ -107,6 +112,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 7",
                 "mandatory": "M",
                 "name": "Val7",
                 "size": 1,
@@ -114,6 +120,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 8",
                 "mandatory": "M",
                 "name": "Val8",
                 "size": 1,
@@ -121,6 +128,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 9",
                 "mandatory": "M",
                 "name": "Val9",
                 "size": 1,
@@ -128,6 +136,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 10",
                 "mandatory": "M",
                 "name": "Val10",
                 "size": 1,
@@ -135,6 +144,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 11",
                 "mandatory": "M",
                 "name": "Val11",
                 "size": 1,
@@ -142,6 +152,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 12",
                 "mandatory": "M",
                 "name": "Val12",
                 "size": 1,
@@ -149,6 +160,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 13",
                 "mandatory": "M",
                 "name": "Val13",
                 "size": 1,
@@ -156,6 +168,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 14",
                 "mandatory": "M",
                 "name": "Val14",
                 "size": 1,
@@ -163,6 +176,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 15",
                 "mandatory": "M",
                 "name": "Val15",
                 "size": 1,
@@ -170,6 +184,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 16",
                 "mandatory": "M",
                 "name": "Val16",
                 "size": 1,
@@ -177,6 +192,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 17",
                 "mandatory": "M",
                 "name": "Val17",
                 "size": 1,
@@ -184,6 +200,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 18",
                 "mandatory": "M",
                 "name": "Val18",
                 "size": 1,
@@ -191,6 +208,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 19",
                 "mandatory": "M",
                 "name": "Val19",
                 "size": 1,
@@ -198,6 +216,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 20",
                 "mandatory": "M",
                 "name": "Val20",
                 "size": 1,
@@ -205,6 +224,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 21",
                 "mandatory": "M",
                 "name": "Val21",
                 "size": 1,
@@ -212,6 +232,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 22",
                 "mandatory": "M",
                 "name": "Val22",
                 "size": 1,
@@ -219,6 +240,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 23",
                 "mandatory": "M",
                 "name": "Val23",
                 "size": 1,
@@ -226,6 +248,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 24",
                 "mandatory": "M",
                 "name": "Val24",
                 "size": 1,
@@ -233,6 +256,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 25",
                 "mandatory": "M",
                 "name": "Val25",
                 "size": 1,
@@ -240,6 +264,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 26",
                 "mandatory": "M",
                 "name": "Val26",
                 "size": 1,
@@ -247,6 +272,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 27",
                 "mandatory": "M",
                 "name": "Val27",
                 "size": 1,
@@ -254,6 +280,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 28",
                 "mandatory": "M",
                 "name": "Val28",
                 "size": 1,
@@ -261,6 +288,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 29",
                 "mandatory": "M",
                 "name": "Val29",
                 "size": 1,
@@ -268,6 +296,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 30",
                 "mandatory": "M",
                 "name": "Val30",
                 "size": 1,
@@ -275,6 +304,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 31",
                 "mandatory": "M",
                 "name": "Val31",
                 "size": 1,
@@ -282,6 +312,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 32",
                 "mandatory": "M",
                 "name": "Val32",
                 "size": 1,
@@ -289,6 +320,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 33",
                 "mandatory": "M",
                 "name": "Val33",
                 "size": 1,
@@ -296,6 +328,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 34",
                 "mandatory": "M",
                 "name": "Val34",
                 "size": 1,
@@ -303,6 +336,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 35",
                 "mandatory": "M",
                 "name": "Val35",
                 "size": 1,
@@ -310,6 +344,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 36",
                 "mandatory": "M",
                 "name": "Val36",
                 "size": 1,
@@ -317,6 +352,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 37",
                 "mandatory": "M",
                 "name": "Val37",
                 "size": 1,
@@ -324,6 +360,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 38",
                 "mandatory": "M",
                 "name": "Val38",
                 "size": 1,
@@ -331,6 +368,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 39",
                 "mandatory": "M",
                 "name": "Val39",
                 "size": 1,
@@ -338,6 +376,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 40",
                 "mandatory": "M",
                 "name": "Val40",
                 "size": 1,
@@ -345,6 +384,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 41",
                 "mandatory": "M",
                 "name": "Val41",
                 "size": 1,
@@ -352,6 +392,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 42",
                 "mandatory": "M",
                 "name": "Val42",
                 "size": 1,
@@ -359,6 +400,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 43",
                 "mandatory": "M",
                 "name": "Val43",
                 "size": 1,
@@ -366,6 +408,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 44",
                 "mandatory": "M",
                 "name": "Val44",
                 "size": 1,
@@ -373,6 +416,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 45",
                 "mandatory": "M",
                 "name": "Val45",
                 "size": 1,
@@ -380,6 +424,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 46",
                 "mandatory": "M",
                 "name": "Val46",
                 "size": 1,
@@ -387,6 +432,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 47",
                 "mandatory": "M",
                 "name": "Val47",
                 "size": 1,
@@ -394,6 +440,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 48",
                 "mandatory": "M",
                 "name": "Val48",
                 "size": 1,
@@ -401,6 +448,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 49",
                 "mandatory": "M",
                 "name": "Val49",
                 "size": 1,
@@ -408,6 +456,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 50",
                 "mandatory": "M",
                 "name": "Val50",
                 "size": 1,
@@ -415,6 +464,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 51",
                 "mandatory": "M",
                 "name": "Val51",
                 "size": 1,
@@ -422,6 +472,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 52",
                 "mandatory": "M",
                 "name": "Val52",
                 "size": 1,
@@ -429,6 +480,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 53",
                 "mandatory": "M",
                 "name": "Val53",
                 "size": 1,
@@ -436,6 +488,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 54",
                 "mandatory": "M",
                 "name": "Val54",
                 "size": 1,
@@ -443,6 +496,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 55",
                 "mandatory": "M",
                 "name": "Val55",
                 "size": 1,
@@ -450,6 +504,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 56",
                 "mandatory": "M",
                 "name": "Val56",
                 "size": 1,
@@ -457,6 +512,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 57",
                 "mandatory": "M",
                 "name": "Val57",
                 "size": 1,
@@ -464,6 +520,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 58",
                 "mandatory": "M",
                 "name": "Val58",
                 "size": 1,
@@ -471,6 +528,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 59",
                 "mandatory": "M",
                 "name": "Val59",
                 "size": 1,
@@ -478,6 +536,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 60",
                 "mandatory": "M",
                 "name": "Val60",
                 "size": 1,
@@ -485,6 +544,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 61",
                 "mandatory": "M",
                 "name": "Val61",
                 "size": 1,
@@ -492,6 +552,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 62",
                 "mandatory": "M",
                 "name": "Val62",
                 "size": 1,
@@ -499,6 +560,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 63",
                 "mandatory": "M",
                 "name": "Val63",
                 "size": 1,
@@ -506,6 +568,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 64",
                 "mandatory": "M",
                 "name": "Val64",
                 "size": 1,
@@ -513,6 +576,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 65",
                 "mandatory": "M",
                 "name": "Val65",
                 "size": 1,
@@ -520,6 +584,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 66",
                 "mandatory": "M",
                 "name": "Val66",
                 "size": 1,
@@ -527,6 +592,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 67",
                 "mandatory": "M",
                 "name": "Val67",
                 "size": 1,
@@ -534,6 +600,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 68",
                 "mandatory": "M",
                 "name": "Val68",
                 "size": 1,
@@ -541,6 +608,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 69",
                 "mandatory": "M",
                 "name": "Val69",
                 "size": 1,
@@ -548,6 +616,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 70",
                 "mandatory": "M",
                 "name": "Val70",
                 "size": 1,
@@ -555,6 +624,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 71",
                 "mandatory": "M",
                 "name": "Val71",
                 "size": 1,
@@ -562,6 +632,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 72",
                 "mandatory": "M",
                 "name": "Val72",
                 "size": 1,
@@ -569,6 +640,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 73",
                 "mandatory": "M",
                 "name": "Val73",
                 "size": 1,
@@ -576,6 +648,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 74",
                 "mandatory": "M",
                 "name": "Val74",
                 "size": 1,
@@ -583,6 +656,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 75",
                 "mandatory": "M",
                 "name": "Val75",
                 "size": 1,
@@ -590,6 +664,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 76",
                 "mandatory": "M",
                 "name": "Val76",
                 "size": 1,
@@ -597,6 +672,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 77",
                 "mandatory": "M",
                 "name": "Val77",
                 "size": 1,
@@ -604,6 +680,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 78",
                 "mandatory": "M",
                 "name": "Val78",
                 "size": 1,
@@ -611,6 +688,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 79",
                 "mandatory": "M",
                 "name": "Val79",
                 "size": 1,
@@ -618,6 +696,7 @@
             },
             {
                 "access": "RW",
+                "label": "Value at Offset 80",
                 "mandatory": "M",
                 "name": "Val80",
                 "size": 1,
@@ -663,6 +742,7 @@
             },
             {
                 "access": "RW",
+                "label": "Reserved",
                 "mandatory": "M",
                 "name": "Rsrvd",
                 "size": 1,
@@ -696,7 +776,7 @@
             {
                 "access": "RW",
                 "desc": "Number of registers comprising the digital signature.",
-                "label": "N",
+                "label": "Number of digital signature registers",
                 "mandatory": "M",
                 "name": "N",
                 "size": 1,

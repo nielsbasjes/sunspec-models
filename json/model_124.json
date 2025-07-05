@@ -26,7 +26,7 @@
             {
                 "access": "RW",
                 "desc": "Setpoint for maximum charge.",
-                "label": "WChaMax",
+                "label": "Maximum charge",
                 "mandatory": "M",
                 "name": "WChaMax",
                 "sf": "WChaMax_SF",
@@ -37,7 +37,7 @@
             {
                 "access": "RW",
                 "desc": "Setpoint for maximum charging rate. Default is MaxChaRte.",
-                "label": "WChaGra",
+                "label": "Maximum charging rate",
                 "mandatory": "M",
                 "name": "WChaGra",
                 "sf": "WChaDisChaGra_SF",
@@ -48,7 +48,7 @@
             {
                 "access": "RW",
                 "desc": "Setpoint for maximum discharge rate. Default is MaxDisChaRte.",
-                "label": "WDisChaGra",
+                "label": "Maximum discharge rate",
                 "mandatory": "M",
                 "name": "WDisChaGra",
                 "sf": "WChaDisChaGra_SF",
@@ -59,7 +59,7 @@
             {
                 "access": "RW",
                 "desc": "Activate hold/discharge/charge storage control mode.",
-                "label": "StorCtl_Mod",
+                "label": "Storage control mode",
                 "mandatory": "M",
                 "name": "StorCtl_Mod",
                 "size": 1,
@@ -78,7 +78,7 @@
             {
                 "access": "RW",
                 "desc": "Setpoint for maximum charging VA.",
-                "label": "VAChaMax",
+                "label": "Maximum charge VA",
                 "name": "VAChaMax",
                 "sf": "VAChaMax_SF",
                 "size": 1,
@@ -88,7 +88,7 @@
             {
                 "access": "RW",
                 "desc": "Setpoint for minimum reserve for storage as a percentage of the nominal maximum storage.",
-                "label": "MinRsvPct",
+                "label": "Minimum reserve percentage",
                 "name": "MinRsvPct",
                 "sf": "MinRsvPct_SF",
                 "size": 1,
@@ -97,7 +97,7 @@
             },
             {
                 "desc": "Currently available energy as a percent of the capacity rating.",
-                "label": "ChaState",
+                "label": "Charge Percentage",
                 "name": "ChaState",
                 "sf": "ChaState_SF",
                 "size": 1,
@@ -106,7 +106,7 @@
             },
             {
                 "desc": "State of charge (ChaState) minus storage reserve (MinRsvPct) times capacity rating (AhrRtg).",
-                "label": "StorAval",
+                "label": "Storage Available",
                 "name": "StorAval",
                 "sf": "StorAval_SF",
                 "size": 1,
@@ -115,7 +115,7 @@
             },
             {
                 "desc": "Internal battery voltage.",
-                "label": "InBatV",
+                "label": "Internal battery voltage",
                 "name": "InBatV",
                 "sf": "InBatV_SF",
                 "size": 1,
@@ -124,7 +124,7 @@
             },
             {
                 "desc": "Charge status of storage device.",
-                "label": "ChaSt",
+                "label": "Charge status",
                 "name": "ChaSt",
                 "size": 1,
                 "symbols": [
@@ -162,7 +162,7 @@
             {
                 "access": "RW",
                 "desc": "Percent of max discharge rate.",
-                "label": "OutWRte",
+                "label": "Discharge rate percentage",
                 "name": "OutWRte",
                 "sf": "InOutWRte_SF",
                 "size": 1,
@@ -172,7 +172,7 @@
             {
                 "access": "RW",
                 "desc": "Percent of max charging rate.",
-                "label": "InWRte",
+                "label": "Charging rate percentage",
                 "name": "InWRte",
                 "sf": "InOutWRte_SF",
                 "size": 1,
@@ -182,7 +182,7 @@
             {
                 "access": "RW",
                 "desc": "Time window for charge/discharge rate change.",
-                "label": "InOutWRte_WinTms",
+                "label": "Charge Discharge Rate Change Time window",
                 "name": "InOutWRte_WinTms",
                 "size": 1,
                 "type": "uint16",
@@ -191,7 +191,7 @@
             {
                 "access": "RW",
                 "desc": "Timeout period for charge/discharge rate.",
-                "label": "InOutWRte_RvrtTms",
+                "label": "Charge Discharge Rate Change Timeout period",
                 "name": "InOutWRte_RvrtTms",
                 "size": 1,
                 "type": "uint16",
@@ -200,7 +200,7 @@
             {
                 "access": "RW",
                 "desc": "Ramp time for moving from current setpoint to new setpoint.",
-                "label": "InOutWRte_RmpTms",
+                "label": "Charge Discharge Rate Change Ramp Time",
                 "name": "InOutWRte_RmpTms",
                 "size": 1,
                 "type": "uint16",
@@ -208,6 +208,7 @@
             },
             {
                 "access": "RW",
+                "label": "Charge Grid setting",
                 "name": "ChaGriSet",
                 "size": 1,
                 "symbols": [

@@ -25,7 +25,7 @@
             },
             {
                 "desc": "PV inverter present/available status.",
-                "label": "PVConn",
+                "label": "PV inverter connection status",
                 "mandatory": "M",
                 "name": "PVConn",
                 "size": 1,
@@ -51,7 +51,7 @@
             },
             {
                 "desc": "Storage inverter present/available status.",
-                "label": "StorConn",
+                "label": "Storage inverter connection status",
                 "mandatory": "M",
                 "name": "StorConn",
                 "size": 1,
@@ -95,7 +95,7 @@
             },
             {
                 "desc": "AC lifetime active (real) energy output.",
-                "label": "ActWh",
+                "label": "AC lifetime active energy output",
                 "name": "ActWh",
                 "size": 4,
                 "type": "acc64",
@@ -103,7 +103,7 @@
             },
             {
                 "desc": "AC lifetime apparent energy output.",
-                "label": "ActVAh",
+                "label": "AC lifetime apparent energy output",
                 "name": "ActVAh",
                 "size": 4,
                 "type": "acc64",
@@ -111,7 +111,7 @@
             },
             {
                 "desc": "AC lifetime reactive energy output in quadrant 1.",
-                "label": "ActVArhQ1",
+                "label": "AC lifetime reactive energy output in quadrant 1",
                 "name": "ActVArhQ1",
                 "size": 4,
                 "type": "acc64",
@@ -119,7 +119,7 @@
             },
             {
                 "desc": "AC lifetime reactive energy output in quadrant 2.",
-                "label": "ActVArhQ2",
+                "label": "AC lifetime reactive energy output in quadrant 2",
                 "name": "ActVArhQ2",
                 "size": 4,
                 "type": "acc64",
@@ -127,7 +127,7 @@
             },
             {
                 "desc": "AC lifetime negative energy output in quadrant 3.",
-                "label": "ActVArhQ3",
+                "label": "AC lifetime reactive energy output in quadrant 3",
                 "name": "ActVArhQ3",
                 "size": 4,
                 "type": "acc64",
@@ -135,7 +135,7 @@
             },
             {
                 "desc": "AC lifetime reactive energy output in quadrant 4.",
-                "label": "ActVArhQ4",
+                "label": "AC lifetime reactive energy output in quadrant 4",
                 "name": "ActVArhQ4",
                 "size": 4,
                 "type": "acc64",
@@ -143,7 +143,7 @@
             },
             {
                 "desc": "Amount of VARs available without impacting watts output.",
-                "label": "VArAval",
+                "label": "Available reactive power",
                 "name": "VArAval",
                 "sf": "VArAval_SF",
                 "size": 1,
@@ -159,7 +159,7 @@
             },
             {
                 "desc": "Amount of Watts available.",
-                "label": "WAval",
+                "label": "Available power",
                 "name": "WAval",
                 "sf": "WAval_SF",
                 "size": 1,
@@ -175,7 +175,7 @@
             },
             {
                 "desc": "Setpoint limit(s) reached.",
-                "label": "StSetLimMsk",
+                "label": "Limit reached",
                 "name": "StSetLimMsk",
                 "size": 2,
                 "symbols": [
@@ -228,8 +228,8 @@
                 "detail": "Bits shall be automatically cleared on read."
             },
             {
-                "label": "StActCtl",
                 "desc": "Which inverter controls are currently active.",
+                "label": "Active inverter controls",
                 "name": "StActCtl",
                 "size": 2,
                 "symbols": [
@@ -294,14 +294,14 @@
             },
             {
                 "desc": "Source of time synchronization.",
-                "label": "TmSrc",
+                "label": "Time Source",
                 "name": "TmSrc",
                 "size": 4,
                 "type": "string"
             },
             {
                 "desc": "Seconds since 01-01-2000 00:00 UTC",
-                "label": "Tms",
+                "label": "Timestamp",
                 "name": "Tms",
                 "size": 2,
                 "type": "uint32",
@@ -309,7 +309,7 @@
             },
             {
                 "desc": "Active ride-through status.",
-                "label": "RtSt",
+                "label": "Active ride-through status",
                 "name": "RtSt",
                 "size": 1,
                 "symbols": [
@@ -334,7 +334,7 @@
             },
             {
                 "desc": "Isolation resistance.",
-                "label": "Ris",
+                "label": "Isolation resistance",
                 "name": "Ris",
                 "sf": "Ris_SF",
                 "size": 1,

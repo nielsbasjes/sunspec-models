@@ -26,7 +26,7 @@
             {
                 "access": "RW",
                 "desc": "Is price-based charge/discharge mode active?",
-                "label": "ModEna",
+                "label": "Enabled",
                 "mandatory": "M",
                 "name": "ModEna",
                 "size": 1,
@@ -41,7 +41,7 @@
             {
                 "access": "RW",
                 "desc": "Meaning of the pricing signal. When a Price schedule is used, type must match the schedule range variable description.",
-                "label": "SigType",
+                "label": "Signal Type",
                 "name": "SigType",
                 "size": 1,
                 "symbols": [
@@ -71,7 +71,7 @@
             {
                 "access": "RW",
                 "desc": "Utility/ESP specific pricing signal. Content depends on pricing signal type. When H/M/L type is specified. Low=0; Med=1; High=2.",
-                "label": "Sig",
+                "label": "Signal",
                 "mandatory": "M",
                 "name": "Sig",
                 "sf": "Sig_SF",
@@ -81,7 +81,7 @@
             {
                 "access": "RW",
                 "desc": "Time window for charge/discharge pricing change.",
-                "label": "WinTms",
+                "label": "Pricing Change Time window",
                 "name": "WinTms",
                 "size": 1,
                 "type": "uint16",
@@ -90,7 +90,7 @@
             {
                 "access": "RW",
                 "desc": "Timeout period for charge/discharge pricing change.",
-                "label": "RvtTms",
+                "label": "Pricing Change Timeout period",
                 "name": "RvtTms",
                 "size": 1,
                 "type": "uint16",
@@ -99,7 +99,7 @@
             {
                 "access": "RW",
                 "desc": "Ramp time for moving from current charge or discharge level to new level.",
-                "label": "RmpTms",
+                "label": "Pricing Change Ramp Time",
                 "name": "RmpTms",
                 "size": 1,
                 "type": "uint16",

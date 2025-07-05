@@ -61,7 +61,7 @@
             },
             {
                 "desc": "Specified over-excited power factor.",
-                "label": "Specified Over-Excited PF",
+                "label": "Specified Over-Excited Rating Power Factor",
                 "name": "WOvrExtRtgPF",
                 "sf": "PF_SF",
                 "size": 1,
@@ -86,7 +86,7 @@
             },
             {
                 "desc": "Specified under-excited power factor.",
-                "label": "Specified Under-Excited PF",
+                "label": "Specified Under-Excited Rating Power Factor",
                 "name": "WUndExtRtgPF",
                 "sf": "PF_SF",
                 "size": 1,
@@ -407,7 +407,7 @@
             },
             {
                 "desc": "Intentional island categories.",
-                "label": "Intentional Island Categories",
+                "label": "Intentional Island Categories Rating",
                 "name": "IntIslandCatRtg",
                 "size": 1,
                 "static": "S",

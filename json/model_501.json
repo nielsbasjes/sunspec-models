@@ -247,7 +247,7 @@
             },
             {
                 "desc": "Module Temperature",
-                "label": "Temp",
+                "label": "Module Temperature",
                 "name": "Tmp",
                 "size": 2,
                 "type": "float32",

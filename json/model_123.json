@@ -26,7 +26,7 @@
             {
                 "access": "RW",
                 "desc": "Time window for connect/disconnect.",
-                "label": "Conn_WinTms",
+                "label": "Connection Time window",
                 "name": "Conn_WinTms",
                 "size": 1,
                 "type": "uint16",
@@ -35,7 +35,7 @@
             {
                 "access": "RW",
                 "desc": "Timeout period for connect/disconnect.",
-                "label": "Conn_RvrtTms",
+                "label": "Connection Timeout period",
                 "name": "Conn_RvrtTms",
                 "size": 1,
                 "type": "uint16",
@@ -44,7 +44,7 @@
             {
                 "access": "RW",
                 "desc": "Connection control.",
-                "label": "Conn",
+                "label": "Connection control",
                 "mandatory": "M",
                 "name": "Conn",
                 "size": 1,
@@ -63,7 +63,7 @@
             {
                 "access": "RW",
                 "desc": "Set power output to specified level.",
-                "label": "WMaxLimPct",
+                "label": "Power Output Limit Pct",
                 "mandatory": "M",
                 "name": "WMaxLimPct",
                 "sf": "WMaxLimPct_SF",
@@ -74,7 +74,7 @@
             {
                 "access": "RW",
                 "desc": "Time window for power limit change.",
-                "label": "WMaxLimPct_WinTms",
+                "label": "Power Output Limit Pct Change Time window",
                 "name": "WMaxLimPct_WinTms",
                 "size": 1,
                 "type": "uint16",
@@ -83,7 +83,7 @@
             {
                 "access": "RW",
                 "desc": "Timeout period for power limit.",
-                "label": "WMaxLimPct_RvrtTms",
+                "label": "Power Output Limit Pct Change Timeout period",
                 "name": "WMaxLimPct_RvrtTms",
                 "size": 1,
                 "type": "uint16",
@@ -92,7 +92,7 @@
             {
                 "access": "RW",
                 "desc": "Ramp time for moving from current setpoint to new setpoint.",
-                "label": "WMaxLimPct_RmpTms",
+                "label": "Power Output Limit Pct Change Ramp Time",
                 "name": "WMaxLimPct_RmpTms",
                 "size": 1,
                 "type": "uint16",
@@ -101,7 +101,7 @@
             {
                 "access": "RW",
                 "desc": "Throttle enable/disable control.",
-                "label": "WMaxLim_Ena",
+                "label": "Power Output Limit Pct Change Throttle",
                 "mandatory": "M",
                 "name": "WMaxLim_Ena",
                 "size": 1,
@@ -120,7 +120,7 @@
             {
                 "access": "RW",
                 "desc": "Set power factor to specific value - cosine of angle.",
-                "label": "OutPFSet",
+                "label": "Power Factor",
                 "mandatory": "M",
                 "name": "OutPFSet",
                 "sf": "OutPFSet_SF",
@@ -131,7 +131,7 @@
             {
                 "access": "RW",
                 "desc": "Time window for power factor change.",
-                "label": "OutPFSet_WinTms",
+                "label": "Power Factor Change Time window",
                 "name": "OutPFSet_WinTms",
                 "size": 1,
                 "type": "uint16",
@@ -140,7 +140,7 @@
             {
                 "access": "RW",
                 "desc": "Timeout period for power factor.",
-                "label": "OutPFSet_RvrtTms",
+                "label": "Power Factor Change Timeout period",
                 "name": "OutPFSet_RvrtTms",
                 "size": 1,
                 "type": "uint16",
@@ -149,7 +149,7 @@
             {
                 "access": "RW",
                 "desc": "Ramp time for moving from current setpoint to new setpoint.",
-                "label": "OutPFSet_RmpTms",
+                "label": "Power Factor Change Ramp Time",
                 "name": "OutPFSet_RmpTms",
                 "size": 1,
                 "type": "uint16",
@@ -158,7 +158,7 @@
             {
                 "access": "RW",
                 "desc": "Fixed power factor enable/disable control.",
-                "label": "OutPFSet_Ena",
+                "label": "Power Factor Change Throttle",
                 "mandatory": "M",
                 "name": "OutPFSet_Ena",
                 "size": 1,
@@ -177,7 +177,7 @@
             {
                 "access": "RW",
                 "desc": "Reactive power in percent of WMax.",
-                "label": "VArWMaxPct",
+                "label": "Reactive power in percent of WMax",
                 "name": "VArWMaxPct",
                 "sf": "VArPct_SF",
                 "size": 1,
@@ -187,7 +187,7 @@
             {
                 "access": "RW",
                 "desc": "Reactive power in percent of VArMax.",
-                "label": "VArMaxPct",
+                "label": "Reactive power in percent of VArMax",
                 "name": "VArMaxPct",
                 "sf": "VArPct_SF",
                 "size": 1,
@@ -197,7 +197,7 @@
             {
                 "access": "RW",
                 "desc": "Reactive power in percent of VArAval.",
-                "label": "VArAvalPct",
+                "label": "Reactive power in percent of VArAval",
                 "name": "VArAvalPct",
                 "sf": "VArPct_SF",
                 "size": 1,
@@ -207,7 +207,7 @@
             {
                 "access": "RW",
                 "desc": "Time window for VAR limit change.",
-                "label": "VArPct_WinTms",
+                "label": "VAR Limit Change Time window",
                 "name": "VArPct_WinTms",
                 "size": 1,
                 "type": "uint16",
@@ -216,7 +216,7 @@
             {
                 "access": "RW",
                 "desc": "Timeout period for VAR limit.",
-                "label": "VArPct_RvrtTms",
+                "label": "VAR Limit Change Timeout period",
                 "name": "VArPct_RvrtTms",
                 "size": 1,
                 "type": "uint16",
@@ -225,7 +225,7 @@
             {
                 "access": "RW",
                 "desc": "Ramp time for moving from current setpoint to new setpoint.",
-                "label": "VArPct_RmpTms",
+                "label": "VAR Limit Change Ramp Time",
                 "name": "VArPct_RmpTms",
                 "size": 1,
                 "type": "uint16",
@@ -234,7 +234,7 @@
             {
                 "access": "RW",
                 "desc": "VAR percent limit mode.",
-                "label": "VArPct_Mod",
+                "label": "VAR percent limit mode",
                 "name": "VArPct_Mod",
                 "size": 1,
                 "symbols": [
@@ -260,7 +260,7 @@
             {
                 "access": "RW",
                 "desc": "Percent limit VAr enable/disable control.",
-                "label": "VArPct_Ena",
+                "label": "VAR Percent limit control",
                 "mandatory": "M",
                 "name": "VArPct_Ena",
                 "size": 1,

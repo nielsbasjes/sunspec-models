@@ -8,6 +8,7 @@
                 "points": [
                     {
                         "access": "RW",
+                        "label": "Certificate",
                         "mandatory": "M",
                         "name": "Cert",
                         "size": 1,
@@ -134,7 +135,7 @@
             {
                 "access": "RW",
                 "desc": "First word of this fragment",
-                "label": "Frag1",
+                "label": "Fragment word 1",
                 "mandatory": "M",
                 "name": "Frg1",
                 "size": 1,
@@ -142,6 +143,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 2",
                 "mandatory": "M",
                 "name": "Frg2",
                 "size": 1,
@@ -149,6 +151,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 3",
                 "mandatory": "M",
                 "name": "Frg3",
                 "size": 1,
@@ -156,6 +159,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 4",
                 "mandatory": "M",
                 "name": "Frg4",
                 "size": 1,
@@ -163,6 +167,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 5",
                 "mandatory": "M",
                 "name": "Frg5",
                 "size": 1,
@@ -170,6 +175,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 6",
                 "mandatory": "M",
                 "name": "Frg6",
                 "size": 1,
@@ -177,6 +183,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 7",
                 "mandatory": "M",
                 "name": "Frg7",
                 "size": 1,
@@ -184,6 +191,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 8",
                 "mandatory": "M",
                 "name": "Frg8",
                 "size": 1,
@@ -191,6 +199,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 9",
                 "mandatory": "M",
                 "name": "Frg9",
                 "size": 1,
@@ -198,6 +207,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 10",
                 "mandatory": "M",
                 "name": "Frg10",
                 "size": 1,
@@ -205,6 +215,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 11",
                 "mandatory": "M",
                 "name": "Frg11",
                 "size": 1,
@@ -212,6 +223,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 12",
                 "mandatory": "M",
                 "name": "Frg12",
                 "size": 1,
@@ -219,6 +231,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 13",
                 "mandatory": "M",
                 "name": "Frg13",
                 "size": 1,
@@ -226,6 +239,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 14",
                 "mandatory": "M",
                 "name": "Frg14",
                 "size": 1,
@@ -233,6 +247,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 15",
                 "mandatory": "M",
                 "name": "Frg15",
                 "size": 1,
@@ -240,6 +255,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 16",
                 "mandatory": "M",
                 "name": "Frg16",
                 "size": 1,
@@ -247,6 +263,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 17",
                 "mandatory": "M",
                 "name": "Frg17",
                 "size": 1,
@@ -254,6 +271,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 18",
                 "mandatory": "M",
                 "name": "Frg18",
                 "size": 1,
@@ -261,6 +279,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 19",
                 "mandatory": "M",
                 "name": "Frg19",
                 "size": 1,
@@ -268,6 +287,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 20",
                 "mandatory": "M",
                 "name": "Frg20",
                 "size": 1,
@@ -275,6 +295,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 21",
                 "mandatory": "M",
                 "name": "Frg21",
                 "size": 1,
@@ -282,6 +303,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 22",
                 "mandatory": "M",
                 "name": "Frg22",
                 "size": 1,
@@ -289,6 +311,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 23",
                 "mandatory": "M",
                 "name": "Frg23",
                 "size": 1,
@@ -296,6 +319,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 24",
                 "mandatory": "M",
                 "name": "Frg24",
                 "size": 1,
@@ -303,6 +327,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 25",
                 "mandatory": "M",
                 "name": "Frg25",
                 "size": 1,
@@ -310,6 +335,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 26",
                 "mandatory": "M",
                 "name": "Frg26",
                 "size": 1,
@@ -317,6 +343,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 27",
                 "mandatory": "M",
                 "name": "Frg27",
                 "size": 1,
@@ -324,6 +351,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 28",
                 "mandatory": "M",
                 "name": "Frg28",
                 "size": 1,
@@ -331,6 +359,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 29",
                 "mandatory": "M",
                 "name": "Frg29",
                 "size": 1,
@@ -338,6 +367,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 30",
                 "mandatory": "M",
                 "name": "Frg30",
                 "size": 1,
@@ -345,6 +375,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 31",
                 "mandatory": "M",
                 "name": "Frg31",
                 "size": 1,
@@ -352,6 +383,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 32",
                 "mandatory": "M",
                 "name": "Frg32",
                 "size": 1,
@@ -359,6 +391,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 33",
                 "mandatory": "M",
                 "name": "Frg33",
                 "size": 1,
@@ -366,6 +399,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 34",
                 "mandatory": "M",
                 "name": "Frg34",
                 "size": 1,
@@ -373,6 +407,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 35",
                 "mandatory": "M",
                 "name": "Frg35",
                 "size": 1,
@@ -380,6 +415,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 36",
                 "mandatory": "M",
                 "name": "Frg36",
                 "size": 1,
@@ -387,6 +423,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 37",
                 "mandatory": "M",
                 "name": "Frg37",
                 "size": 1,
@@ -394,6 +431,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 38",
                 "mandatory": "M",
                 "name": "Frg38",
                 "size": 1,
@@ -401,6 +439,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 39",
                 "mandatory": "M",
                 "name": "Frg39",
                 "size": 1,
@@ -408,6 +447,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 40",
                 "mandatory": "M",
                 "name": "Frg40",
                 "size": 1,
@@ -415,6 +455,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 41",
                 "mandatory": "M",
                 "name": "Frg41",
                 "size": 1,
@@ -422,6 +463,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 42",
                 "mandatory": "M",
                 "name": "Frg42",
                 "size": 1,
@@ -429,6 +471,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 43",
                 "mandatory": "M",
                 "name": "Frg43",
                 "size": 1,
@@ -436,6 +479,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 44",
                 "mandatory": "M",
                 "name": "Frg44",
                 "size": 1,
@@ -443,6 +487,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 45",
                 "mandatory": "M",
                 "name": "Frg45",
                 "size": 1,
@@ -450,6 +495,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 46",
                 "mandatory": "M",
                 "name": "Frg46",
                 "size": 1,
@@ -457,6 +503,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 47",
                 "mandatory": "M",
                 "name": "Frg47",
                 "size": 1,
@@ -464,6 +511,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 48",
                 "mandatory": "M",
                 "name": "Frg48",
                 "size": 1,
@@ -471,6 +519,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 49",
                 "mandatory": "M",
                 "name": "Frg49",
                 "size": 1,
@@ -478,6 +527,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 50",
                 "mandatory": "M",
                 "name": "Frg50",
                 "size": 1,
@@ -485,6 +535,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 51",
                 "mandatory": "M",
                 "name": "Frg51",
                 "size": 1,
@@ -492,6 +543,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 52",
                 "mandatory": "M",
                 "name": "Frg52",
                 "size": 1,
@@ -499,6 +551,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 53",
                 "mandatory": "M",
                 "name": "Frg53",
                 "size": 1,
@@ -506,6 +559,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 54",
                 "mandatory": "M",
                 "name": "Frg54",
                 "size": 1,
@@ -513,6 +567,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 55",
                 "mandatory": "M",
                 "name": "Frg55",
                 "size": 1,
@@ -520,6 +575,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 56",
                 "mandatory": "M",
                 "name": "Frg56",
                 "size": 1,
@@ -527,6 +583,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 57",
                 "mandatory": "M",
                 "name": "Frg57",
                 "size": 1,
@@ -534,6 +591,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 58",
                 "mandatory": "M",
                 "name": "Frg58",
                 "size": 1,
@@ -541,6 +599,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 59",
                 "mandatory": "M",
                 "name": "Frg59",
                 "size": 1,
@@ -548,6 +607,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 60",
                 "mandatory": "M",
                 "name": "Frg60",
                 "size": 1,
@@ -555,6 +615,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 61",
                 "mandatory": "M",
                 "name": "Frg61",
                 "size": 1,
@@ -562,6 +623,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 62",
                 "mandatory": "M",
                 "name": "Frg62",
                 "size": 1,
@@ -569,6 +631,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 63",
                 "mandatory": "M",
                 "name": "Frg63",
                 "size": 1,
@@ -576,6 +639,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 64",
                 "mandatory": "M",
                 "name": "Frg64",
                 "size": 1,
@@ -583,6 +647,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 65",
                 "mandatory": "M",
                 "name": "Frg65",
                 "size": 1,
@@ -590,6 +655,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 66",
                 "mandatory": "M",
                 "name": "Frg66",
                 "size": 1,
@@ -597,6 +663,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 67",
                 "mandatory": "M",
                 "name": "Frg67",
                 "size": 1,
@@ -604,6 +671,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 68",
                 "mandatory": "M",
                 "name": "Frg68",
                 "size": 1,
@@ -611,6 +679,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 69",
                 "mandatory": "M",
                 "name": "Frg69",
                 "size": 1,
@@ -618,6 +687,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 70",
                 "mandatory": "M",
                 "name": "Frg70",
                 "size": 1,
@@ -625,6 +695,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 71",
                 "mandatory": "M",
                 "name": "Frg71",
                 "size": 1,
@@ -632,6 +703,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 72",
                 "mandatory": "M",
                 "name": "Frg72",
                 "size": 1,
@@ -639,6 +711,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 73",
                 "mandatory": "M",
                 "name": "Frg73",
                 "size": 1,
@@ -646,6 +719,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 74",
                 "mandatory": "M",
                 "name": "Frg74",
                 "size": 1,
@@ -653,6 +727,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 75",
                 "mandatory": "M",
                 "name": "Frg75",
                 "size": 1,
@@ -660,6 +735,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 78",
                 "mandatory": "M",
                 "name": "Frg78",
                 "size": 1,
@@ -667,6 +743,7 @@
             },
             {
                 "access": "RW",
+                "label": "Fragment word 79",
                 "mandatory": "M",
                 "name": "Frg79",
                 "size": 1,
@@ -675,7 +752,7 @@
             {
                 "access": "RW",
                 "desc": "Last word of this fragment",
-                "label": "Frag80",
+                "label": "Fragment word 80",
                 "mandatory": "M",
                 "name": "Frg80",
                 "size": 1,
@@ -756,7 +833,7 @@
             {
                 "access": "RW",
                 "desc": "Number of registers to follow for the certificate",
-                "label": "N",
+                "label": "Number of certificate registers",
                 "mandatory": "M",
                 "name": "N",
                 "size": 1,
