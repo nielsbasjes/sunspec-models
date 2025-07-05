@@ -301,10 +301,10 @@
             },
             {
                 "desc": "Seconds since 01-01-2000 00:00 UTC",
-                "label": "Tms",
+                "label": "Timestamp",
                 "name": "Tms",
                 "size": 2,
-                "type": "uint32",
+                "type": "timestamp",
                 "units": "Secs"
             },
             {

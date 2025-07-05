@@ -87,9 +87,17 @@
                 },
                 "type": {
                     "type": "string",
-                    "enum": ["int16", "int32", "int64", "raw16", "uint16", "uint32", "uint64" ,"acc16", "acc32",
-                             "acc64", "bitfield16", "bitfield32", "bitfield64", "enum16", "enum32", "float32",
-                             "float64", "string", "pad", "ipaddr", "ipv6addr", "eui48", "sunssf", "count"]
+                    "enum": ["raw16",
+                             "int16", "int32", "int64",
+                             "uint16", "uint32", "uint64",
+                             "acc16", "acc32", "acc64",
+                             "timestamp",
+                             "bitfield16", "bitfield32", "bitfield64",
+                             "enum16", "enum32",
+                             "float32", "float64",
+                             "string",
+                             "ipaddr", "ipv6addr", "eui48",
+                             "pad", "sunssf", "count"]
                 },
                 "value": {
                     "type": ["integer", "string"]

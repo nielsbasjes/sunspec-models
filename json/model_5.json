@@ -622,7 +622,7 @@
                 "mandatory": "M",
                 "name": "Ts",
                 "size": 2,
-                "type": "uint32"
+                "type": "timestamp"
             },
             {
                 "access": "RW",

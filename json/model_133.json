@@ -22,7 +22,7 @@
                         "mandatory": "M",
                         "name": "StrTms",
                         "size": 2,
-                        "type": "uint32",
+                        "type": "timestamp",
                         "units": "Secs"
                     },
                     {

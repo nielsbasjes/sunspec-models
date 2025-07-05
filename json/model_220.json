@@ -348,7 +348,7 @@
                 "mandatory": "M",
                 "name": "Ts",
                 "size": 2,
-                "type": "uint32"
+                "type": "timestamp"
             },
             {
                 "desc": "Millisecond counter 0-999",
