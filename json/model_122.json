@@ -76,7 +76,7 @@
                 "type": "bitfield16"
             },
             {
-                "label": "ECPConn",
+                "label": "ECP connection status",
                 "desc": "ECP connection status: disconnected=0 connected=1.",
                 "mandatory": "M",
                 "name": "ECPConn",
